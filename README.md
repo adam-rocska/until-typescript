@@ -118,22 +118,31 @@ Executes the provided `predicate` function repeatedly until it returns `true` or
 To contribute or test the library locally:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/adam-rocska/until-typescript.git
    ```
+
 2. Install dependencies using pnpm:
+
    ```bash
    pnpm install
    ```
+
 3. Run tests:
+
    ```bash
    pnpm test
    ```
+
 4. Build the library:
+
    ```bash
    pnpm build
    ```
+
 5. Check code quality and types:
+
    ```bash
    pnpm check
    ```
@@ -143,6 +152,7 @@ The library uses Jest for testing, ESLint for linting, and `bunchee` for buildin
 ## Testing
 
 The library includes unit tests covering the following scenarios:
+
 - Early resolution when the predicate returns `true` immediately.
 - Rejection with `TimeoutError` when the predicate never returns `true`.
 - Successful resolution when the predicate returns `true` within the timeout.
