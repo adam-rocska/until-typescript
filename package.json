@@ -54,7 +54,7 @@
   "license": "MIT",
   "packageManager": "pnpm@10.11.0",
   "devDependencies": {
-    "@arethetypeswrong/cli": "^0.16.4",
+    "@arethetypeswrong/cli": "^0.18.1",
     "@swc/jest": "^0.2.38",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.15.19",
