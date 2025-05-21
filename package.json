@@ -5,8 +5,20 @@
     "url": "https://adam-rocska.github.io"
   },
   "version": "1.0.0",
-  "description": "",
-  "keywords": [ ],
+  "description": "A lightweight TypeScript utility to repeatedly execute an asynchronous predicate until it resolves to true or times out.",
+  "keywords": [
+    "typescript",
+    "async",
+    "promise",
+    "timeout",
+    "predicate",
+    "retry",
+    "javascript",
+    "polling",
+    "await",
+    "node",
+    "browser"
+  ],
   "browserslist": [
     "last 3 years"
   ],
