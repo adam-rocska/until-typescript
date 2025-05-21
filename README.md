@@ -2,6 +2,16 @@
 
 A lightweight TypeScript/JavaScript utility for repeatedly executing an asynchronous predicate function until it returns `true` or a specified timeout is reached. If the timeout is exceeded, the promise rejects with a `TimeoutError`.
 
+[![NPM Version](https://img.shields.io/npm/v/@adam-rocska/until.svg)](https://www.npmjs.com/package/@adam-rocska/until)
+[![License](https://img.shields.io/npm/l/@adam-rocska/until)](https://github.com/adam-rocska/until-typescript/blob/master/LICENSE)
+
+| Aspect               | Badge                                                                                                                                           |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Minified             | [![Minified](https://badgen.net/bundlephobia/min/@adam-rocska/until)](https://bundlephobia.com/package/@adam-rocska/until)                      |
+| Minified + gzip      | [![Minified + gzip](https://badgen.net/bundlephobia/minzip/@adam-rocska/until)](https://bundlephobia.com/package/@adam-rocska/until)            |
+| Dependency Count     | [![Dependency Count](https://badgen.net/bundlephobia/dependency-count/@adam-rocska/until)](https://bundlephobia.com/package/@adam-rocska/until) |
+| Tree-shaking Support | [![Tree-shaking Support](https://badgen.net/bundlephobia/tree-shaking/@adam-rocska/until)](https://bundlephobia.com/package/@adam-rocska/until) |
+
 ## Features
 
 - **Asynchronous Predicate Execution**: Repeatedly runs an async predicate function until it returns `true`.
